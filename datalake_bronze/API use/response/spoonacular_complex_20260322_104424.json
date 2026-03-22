@@ -1,0 +1,120 @@
+{
+    "results": [
+        {
+            "id": 648279,
+            "image": "https://img.spoonacular.com/recipes/648279-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Italian Tuna Pasta",
+            "readyInMinutes": 20,
+            "servings": 3,
+            "sourceUrl": "https://www.foodista.com/recipe/4QNQXMDZ/italian-tuna-pasta",
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": true,
+            "veryHealthy": true,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 10,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 1,
+            "healthScore": 100.0,
+            "creditsText": "foodista.com",
+            "license": null,
+            "sourceName": "foodista.com",
+            "pricePerServing": 209.48,
+            "summary": "Italian Tuna Pastan is a Mediterranean main course. Watching your figure? This dairy free and pescatarian recipe has <b>464 calories</b>, <b>38g of protein</b>, and <b>3g of fat</b> per serving. For <b>$2.09 per serving</b>, this recipe <b>covers 35%</b> of your daily requirements of vitamins and minerals. This recipe serves 3. 1 person found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes around <b>20 minutes</b>. It is brought to you by Foodista. A mixture of chillies, pasta shells, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so tasty. Taking all factors into account, this recipe <b>earns a spoonacular score of 93%</b>, which is excellent. Try <a href=\"https://spoonacular.com/recipes/italian-tuna-pasta-salad-413394\">Italian Tuna Pasta Salad</a>, <a href=\"https://spoonacular.com/recipes/pasta-and-tuna-salad-ensalada-de-pasta-y-atn-226303\">Pastan and Tuna Salad (Ensalada de Pasta y Atún)</a>, and <a href=\"https://spoonacular.com/recipes/raw-tomato-sauce-for-pasta-the-italian-pasta-alla-crudaiola-1530081\">Raw tomato sauce for pasta, the Italian pastan alla crudaiola</a> for similar recipes.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "side dish",
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [
+                "dairy free",
+                "pescatarian"
+            ],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 93.85346984863281,
+            "spoonacularSourceUrl": "https://spoonacular.com/italian-tuna-pasta-648279",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Fat",
+                        "amount": 2.90626,
+                        "unit": "g"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 648190,
+            "image": "https://img.spoonacular.com/recipes/648190-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Italian Pasta Salad with organic Arugula",
+            "readyInMinutes": 45,
+            "servings": 4,
+            "sourceUrl": "https://www.foodista.com/recipe/DT2VMY38/italian-pasta-salad-with-organic-arugula",
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": true,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 18,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 1,
+            "healthScore": 59.0,
+            "creditsText": "foodista.com",
+            "license": null,
+            "sourceName": "foodista.com",
+            "pricePerServing": 383.98,
+            "summary": "The recipe Italian Pasta Salad with organic Arugula could satisfy your Mediterranean craving in approximately <b>45 minutes</b>. One portion of this dish contains approximately <b>28g of protein</b>, <b>20g of fat</b>, and a total of <b>696 calories</b>. For <b>$3.84 per serving</b>, you get a main course that serves 4. 1 person has tried and liked this recipe. It is brought to you by Foodista. A mixture of pecorino romano cheese, oregano, botticelli extra virgin olive oil, and a handful of other ingredients are all it takes to make this recipe so flavorful. Taking all factors into account, this recipe <b>earns a spoonacular score of 85%</b>, which is amazing. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/weight-watchers-italian-arugula-salad-525364\">Weight Watchers Italian Arugula Salad</a>, <a href=\"https://spoonacular.com/recipes/arugula-italian-tuna-and-white-bean-salad-7940\">Arugula, Italian Tuna, and White Bean Salad</a>, and <a href=\"https://spoonacular.com/recipes/arugula-pasta-salad-547702\">Arugula Pasta Salad</a>.",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "European"
+            ],
+            "dishTypes": [
+                "side dish",
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 84.16766357421875,
+            "spoonacularSourceUrl": "https://spoonacular.com/italian-pasta-salad-with-organic-arugula-648190",
+            "nutrition": {
+                "nutrients": [
+                    {
+                        "name": "Fat",
+                        "amount": 20.3323,
+                        "unit": "g"
+                    }
+                ]
+            }
+        }
+    ],
+    "offset": 0,
+    "number": 2,
+    "totalResults": 20
+}
