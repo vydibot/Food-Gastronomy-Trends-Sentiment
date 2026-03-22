@@ -5,15 +5,11 @@ from typing import Dict, Any, List, Union
 
 class SpoonacularAPI:
     """
-    Cliente de Python para interactuar con la API de Spoonacular.
-    Incluye guardado local para ahorrar cuota de la API.
-    """
+    Client for interacting with the Spoonacular API. Provides methods to search for recipes and get detailed information."""
     BASE_URL = "https://api.spoonacular.com"
 
     def __init__(self, api_key: str):
-        self.api_key = api_key
-        # Spoonacular accepts API key in header or as query parameter
-        # Using header method as recommended
+        self.api_key = api_key 
         self.headers = {
             "Content-Type": "application/json",
             "x-api-key": self.api_key
@@ -21,27 +17,27 @@ class SpoonacularAPI:
 
     def _save_to_json(self, data: Union[Dict, List], filename: str) -> None:
         """
-        Función auxiliar para guardar la respuesta en un archivo JSON.
+        Helper function to save the response to a JSON file.
         """
-        # Aseguramos que el archivo tenga la extensión .json
+        # Ensure the file has the .json extension
         if not filename.endswith('.json'):
             filename += '.json'
 
         try:
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
-            print(f"Resultados guardados localmente en '{filename}'")
+            print(f"Results saved to '{filename}'")
         except IOError as e:
-            print(f"Error al guardar el archivo: {e}")
+            print(f"Error saving file: {e}")
 
     def search_recipes_complex(self, save_to: str = None, **kwargs) -> Dict[str, Any]:
         """
         Endpoint 1: Complex Search
-        Busca recetas combinando filtros. Puedes guardar el resultado localmente.
+        Search for recipes by combining filters. You can save the result locally.
 
-        :param save_to: (Opcional) Nombre del archivo JSON donde guardar los datos.
-        :param kwargs: Parámetros opcionales de la API (ej. query="pasta", maxFat=25).
-        :return: Diccionario JSON con los resultados.
+        :param save_to: (Optional) Name of the JSON file where to save the data.
+        :param kwargs: Optional parameters for the API (e.g., query="pasta", maxFat=25).
+        :return: JSON dictionary with the results.
         """
         endpoint = f"{self.BASE_URL}/recipes/complexSearch"
 
@@ -54,13 +50,13 @@ class SpoonacularAPI:
             response.raise_for_status()
             data = response.json()
 
-            # Si se proporcionó un nombre de archivo, guardamos los datos
+            #If a filename was provided, we save the data
             if save_to:
                 self._save_to_json(data, save_to)
 
             return data
         except requests.exceptions.RequestException as e:
-            print(f"[x] Error en la petición complexSearch: {e}")
+            print(f"Error in the complexSearch request: {e}")
             return {}
 
     def get_recipe_information(self, recipe_id: int, save_to: str = None, **kwargs) -> Dict[str, Any]:
@@ -88,5 +84,5 @@ class SpoonacularAPI:
 
             return data
         except requests.exceptions.RequestException as e:
-            print(f"Error en la petición get_recipe_information para ID {recipe_id}: {e}")
+            print(f"Error in the get_recipe_information request for ID {recipe_id}: {e}")
             return {}

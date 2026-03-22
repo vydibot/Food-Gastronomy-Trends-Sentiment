@@ -18,12 +18,12 @@ def test_api_connection():
     # Get API key
     api_key = os.getenv('SPOONACULAR_API_KEY')
     if not api_key:
-        print("❌ ERROR: SPOONACULAR_API_KEY not found!")
+        print("ERROR: SPOONACULAR_API_KEY not found!")
         print("Please set it with: export SPOONACULAR_API_KEY='your_api_key_here'")
         print("Or create a .env file with: SPOONACULAR_API_KEY=your_api_key_here")
         return False
 
-    print(f"🔑 API Key found: {api_key[:8]}...")
+    print(f"API Key found: {api_key[:8]}...")
     print("Testing API connection...")
 
     # Initialize API client
@@ -39,14 +39,14 @@ def test_api_connection():
 
         if result and 'results' in result:
             recipes_found = len(result['results'])
-            print(f"✅ API connection successful! Found {recipes_found} test recipes.")
+            print(f"API connection successful! Found {recipes_found} test recipes.")
             return True
         else:
-            print("❌ API returned empty result")
+            print("API returned empty result")
             return False
 
     except Exception as e:
-        print(f"❌ API connection failed: {e}")
+        print(f"API connection failed: {e}")
         return False
 
 if __name__ == "__main__":
@@ -54,8 +54,8 @@ if __name__ == "__main__":
     success = test_api_connection()
 
     if success:
-        print("\n🎉 API is working! You can now run the main data collection script.")
+        print("\nAPI is working! You can now run the main data collection script.")
         sys.exit(0)
     else:
-        print("\n💥 API test failed. Please check your API key and try again.")
+        print("\nAPI test failed. Please check your API key and try again.")
         sys.exit(1)

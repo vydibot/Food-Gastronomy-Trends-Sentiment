@@ -1,0 +1,50 @@
+{
+    "results": [
+        {
+            "id": 635164,
+            "image": "https://img.spoonacular.com/recipes/635164-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Black Velvet - Adapted From Paula Deen",
+            "readyInMinutes": 45,
+            "servings": 6,
+            "sourceUrl": "https://www.foodista.com/recipe/HHTP8J5J/black-velvet-adapted-from-paula-deen",
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 10,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 1,
+            "healthScore": 8.0,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 79.11,
+            "summary": "Black Velvet - Adapted From Paula Deen is a hor d'oeuvre that serves 6. For <b>79 cents per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. One serving contains <b>314 calories</b>, <b>11g of protein</b>, and <b>10g of fat</b>. This recipe from Foodista requires flour, buttermilk, onyx cocoa powder, and baking soda. Not a lot of people made this recipe, and 1 would say it hit the spot. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Overall, this recipe earns a <b>solid spoonacular score of 44%</b>. Try <a href=\"https://spoonacular.com/recipes/paula-deen-red-velvet-cupcake-579199\">Paula Deen Red Velvet Cupcake</a>, <a href=\"https://spoonacular.com/recipes/paulas-best-beef-stroganoff-paula-deen-145877\">Paula's Best Beef Stroganoff-Paula Deen</a>, and <a href=\"https://spoonacular.com/recipes/pralines-by-paula-deen-1192757\">Pralines by Paula Deen</a> for similar recipes.",
+            "cuisines": [],
+            "dishTypes": [
+                "antipasti",
+                "starter",
+                "snack",
+                "appetizer",
+                "antipasto",
+                "hor d'oeuvre"
+            ],
+            "diets": [],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 50.34796142578125,
+            "spoonacularSourceUrl": "https://spoonacular.com/black-velvet-adapted-from-paula-deen-635164"
+        }
+    ],
+    "offset": 0,
+    "number": 1,
+    "totalResults": 16
+}

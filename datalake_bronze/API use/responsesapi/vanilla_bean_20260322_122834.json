@@ -1,0 +1,51 @@
+{
+    "results": [
+        {
+            "id": 642780,
+            "image": "https://img.spoonacular.com/recipes/642780-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Fig and Walnut Pudding",
+            "readyInMinutes": 45,
+            "servings": 2,
+            "sourceUrl": "https://www.foodista.com/recipe/HQYSXMGL/fig-and-walnut-pudding",
+            "vegetarian": true,
+            "vegan": false,
+            "glutenFree": true,
+            "dairyFree": true,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 17,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 1,
+            "healthScore": 23.0,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 474.14,
+            "summary": "If you have roughly <b>45 minutes</b> to spend in the kitchen, Fig and Walnut Pudding might be a great <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipe to try. This recipe makes 2 servings with <b>541 calories</b>, <b>7g of protein</b>, and <b>35g of fat</b> each. For <b>$4.74 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. A mixture of mission figs, himalayan salt, avocado, and a handful of other ingredients are all it takes to make this recipe so tasty. It works well as a dessert. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 64%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/fig-walnut-cookes-57122\">Fig Walnut Cookes</a>, <a href=\"https://spoonacular.com/recipes/fig-and-walnut-cookies-342833\">Fig and Walnut Cookies</a>, and <a href=\"https://spoonacular.com/recipes/fig-and-walnut-torte-57162\">Fig And Walnut Torte</a> for similar recipes.",
+            "cuisines": [],
+            "dishTypes": [
+                "dessert"
+            ],
+            "diets": [
+                "gluten free",
+                "dairy free",
+                "paleolithic",
+                "lacto ovo vegetarian",
+                "primal"
+            ],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 69.04166412353516,
+            "spoonacularSourceUrl": "https://spoonacular.com/fig-and-walnut-pudding-642780"
+        }
+    ],
+    "offset": 0,
+    "number": 1,
+    "totalResults": 33
+}

@@ -1,0 +1,51 @@
+{
+    "results": [
+        {
+            "id": 654307,
+            "image": "https://img.spoonacular.com/recipes/654307-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Ozoni",
+            "readyInMinutes": 45,
+            "servings": 4,
+            "sourceUrl": "https://www.foodista.com/recipe/Z4YX7JZQ/ozoni",
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": true,
+            "dairyFree": true,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 7,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 1,
+            "healthScore": 39.0,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 262.07,
+            "summary": "Ozoni takes approximately <b>45 minutes</b> from beginning to end. This recipe serves 4 and costs $2.62 per serving. This main course has <b>396 calories</b>, <b>24g of protein</b>, and <b>20g of fat</b> per serving. This recipe is liked by 1 foodies and cooks. A mixture of chicken thighs, sake, soy sauce, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you're following a <b>gluten free and dairy free</b> diet. It is brought to you by Foodista. Overall, this recipe earns a <b>solid spoonacular score of 78%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/ozoni-19957\">Ozoni</a>, <a href=\"https://spoonacular.com/recipes/ozoni-soup-recipe-93473\">Ozoni Soup Recipe</a>, and <a href=\"https://spoonacular.com/recipes/ozoni-zoni-japanese-new-year-mochi-soup-624919\">Ozoni (Zoni) - Japanese New Year Mochi Soup</a>.",
+            "cuisines": [],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [
+                "gluten free",
+                "dairy free"
+            ],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 78.26122283935547,
+            "spoonacularSourceUrl": "https://spoonacular.com/ozoni-654307"
+        }
+    ],
+    "offset": 0,
+    "number": 1,
+    "totalResults": 6
+}

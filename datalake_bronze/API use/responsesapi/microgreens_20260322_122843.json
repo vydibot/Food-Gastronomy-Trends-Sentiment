@@ -1,0 +1,53 @@
+{
+    "results": [
+        {
+            "id": 982371,
+            "image": "https://img.spoonacular.com/recipes/982371-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Instant Pot Quinoa Grain Bowl",
+            "readyInMinutes": 13,
+            "servings": 4,
+            "sourceUrl": "https://www.pinkwhen.com/instant-pot-quinoa-grain-bowl/",
+            "vegetarian": true,
+            "vegan": true,
+            "glutenFree": true,
+            "dairyFree": true,
+            "veryHealthy": true,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 10,
+            "gaps": "no",
+            "preparationMinutes": 2,
+            "cookingMinutes": 11,
+            "aggregateLikes": 1,
+            "healthScore": 100.0,
+            "creditsText": "pinkwhen.com",
+            "license": null,
+            "sourceName": "pinkwhen.com",
+            "pricePerServing": 301.67,
+            "summary": "Instant Pot Quinoa Grain Bowl might be a good recipe to expand your main course recipe box. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>416 calories</b>, <b>16g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 4 and costs $3.02 per serving. From preparation to the plate, this recipe takes roughly <b>13 minutes</b>. A mixture of baby brussell sprouts, broccoli, salt and pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. 1 person has made this recipe and would make it again. It is brought to you by Pink When. With a spoonacular <b>score of 96%</b>, this dish is super. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/instant-pot-quinoa-grain-bowl-1693765\">Instant Pot Quinoa Grain Bowl</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-sausage-cabbage-bowl-with-quinoa-or-stovetop-901463\">Instant Pot Sausage Cabbage Bowl with Quinoa (or Stovetop)</a>, and <a href=\"https://spoonacular.com/recipes/crock-pot-chicken-fajita-bowl-grain-free-paleo-1224627\">Crock Pot Chicken Fajita Bowl (Grain-Free, Paleo)</a>.",
+            "cuisines": [],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [
+                "gluten free",
+                "dairy free",
+                "lacto ovo vegetarian",
+                "vegan"
+            ],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 96.19120788574219,
+            "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        }
+    ],
+    "offset": 0,
+    "number": 1,
+    "totalResults": 30
+}
