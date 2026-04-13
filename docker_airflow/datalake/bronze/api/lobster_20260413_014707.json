@@ -1,0 +1,55 @@
+{
+    "results": [
+        {
+            "id": 636732,
+            "image": "https://img.spoonacular.com/recipes/636732-312x231.jpg",
+            "imageType": "jpg",
+            "title": "Cajun Lobster Pasta",
+            "readyInMinutes": 45,
+            "servings": 1,
+            "sourceUrl": "https://www.foodista.com/recipe/36T2YS7G/cajun-lobster-pasta",
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": true,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 22,
+            "gaps": "no",
+            "preparationMinutes": null,
+            "cookingMinutes": null,
+            "aggregateLikes": 2,
+            "healthScore": 38.0,
+            "creditsText": "foodista.com",
+            "license": null,
+            "sourceName": "foodista.com",
+            "pricePerServing": 539.83,
+            "summary": "Cajun Lobster Pasta could be just the <b>gluten free and primal</b> recipe you've been looking for. For <b>$5.4 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. One serving contains <b>684 calories</b>, <b>35g of protein</b>, and <b>50g of fat</b>. This recipe serves 1. 2 people have made this recipe and would make it again. This recipe is typical of Cajun cuisine. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. A mixture of garlic powder, bell pepper, lemon pepper, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. It works well as a main course. Taking all factors into account, this recipe <b>earns a spoonacular score of 76%</b>, which is pretty good. <a href=\"https://spoonacular.com/recipes/cajun-lobster-pasta-1396967\">Cajun Lobster Pasta</a>, <a href=\"https://spoonacular.com/recipes/cajun-lobster-pasta-1614055\">Cajun Lobster Pasta</a>, and <a href=\"https://spoonacular.com/recipes/red-lobster-cajun-chicken-pasta-138824\">Red Lobster Cajun Chicken Pasta</a> are very similar to this recipe.",
+            "cuisines": [
+                "Cajun",
+                "Creole"
+            ],
+            "dishTypes": [
+                "side dish",
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [
+                "gluten free",
+                "primal"
+            ],
+            "occasions": [],
+            "language": "en",
+            "spoonacularScore": 81.46194458007812,
+            "spoonacularSourceUrl": "https://spoonacular.com/cajun-lobster-pasta-636732"
+        }
+    ],
+    "offset": 0,
+    "number": 1,
+    "totalResults": 5
+}

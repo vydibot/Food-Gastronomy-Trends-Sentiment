@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  airflow:
+    build: . 
+    depends_on:
+      - postgres
+    # 1. ESTA LÍNEA ES CLAVE: Le dice a Docker que lea tu archivo .env
+    env_file:
+      - .env
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE_EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      SPOONACULAR_API_KEY: ${SPOONACULAR_API_KEY}
+      # 2. AGREGA ESTO TAMBIÉN: Para que no fallen las importaciones de tus scripts
+      PYTHONPATH: /opt/airflow/dags
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./datalake:/opt/airflow/datalake # Monta el Datalake
+    entrypoint: >
+      bash -c "airflow db upgrade &&
+      airflow users create
+      --username admin --firstname Air --lastname Flow
+      --role Admin --email admin@example.com
+      --password admin || true &&
+      airflow webserver & airflow scheduler"
+volumes:
+  pgdata:
